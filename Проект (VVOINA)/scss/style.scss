@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Jura', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 700;
+}
+
+h2 {
+    text-align: center;
+    padding: 25px;
+}
+
+h3 {
+    font-size: 50px;
+}
+
+h4 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.main-photo {
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    li {
+        padding: 25px;
+        color: #006AA7;
+        .nav1 {
+            text-decoration: none;
+        }
+        &:hover {
+            text-decoration: underline;
+            transition: 2s;
+        }
+    }
+}
+
+.zagolovok {
+    margin-top: 200px;
+    height: 300px;
+}
+
+.banner-texts {
+    padding-bottom: 15px;
+}
+
+.header-button {
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    background: #006AA7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    &:hover {
+        background-color: #024D79;
+    }
+}
+
+.past {
+    background: #F5F5F5;
+    padding: 25px;
+    margin-top: 25px;
+}
+
+.pass {
+    text-align: center;
+    padding: 15px;
+}
+
+.cards-past {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 50px;
+}
+
+.card-past {
+    width: 250px;
+    height: 220px;
+    background: white;
+    margin: 0 auto;
+    padding: 10px;
+    &:hover {
+        background: #006AA7;
+        color: white;
+        transition: 0.5s;
+    }
+}
+
+.link-past {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    p {
+        align-self: center;
+        margin-right: 15px;
+    }
+}
+
+.cards-ukraine {
+    display: grid;
+    grid-template-columns: 50% 24% 24%;
+    column-gap: 15px;
+    padding-bottom: 20px;
+}
+
+.card-ukraine {
+    background: lightgrey;
+    border: 1px solid black;
+    padding: 15px;
+    &:hover {
+        background: #006AA7;
+        color: white;
+        transition: 0.5s;
+    }
+}
+
+.kozak-block {
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+.to-sky {
+    background: #F9C00D;
+}
+
+.sky-info-img {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    padding: 20px;
+}
+
+.sky-info {
+    display: grid;
+    grid-template-rows: 35% 35% 30%;
+    font-size: 20px;
+}
+
+.sky-button {
+    border: 1px solid black;
+    background: #F9C00D;
+    border-radius: 10px;
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+    width: 140px;
+    height: 25px;
+    &:hover {
+        background: #BD930A;
+        transition: 0.5s;
+    }
+}
+
+.blocks-today {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 24%;
+    column-gap: 10px;
+}
+
+.block-text {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    height: 150px;
+}
+
+.text_today {
+    font-size: 16px;
+}
+
+.gallery_today {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    img {
+        margin: 0 auto;
+    }
+}
+
+.zelenskii {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    width: 60%;
+    background: #006AA7;
+    color: white;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-size: 30px;
+    padding: 20px;
+    align-items: center;
+    img {
+        border-radius: 100%;
+    }
+}
+
+.blocks_dijital {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+    row-gap: 15px;
+    column-gap: 20px;
+}
+
+.block-dijital {
+    background: #F9C00D;
+    width: 100%;
+    height: 150px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: center;
+}
+
+.future {
+    background-color: #F5F5F5;
+    width: 100%;
+}
+
+.future_Ukraine {
+    display: grid;
+    grid-template-columns: 31% 30% 31%;
+    column-gap: 45px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.block_future {
+    background: white;
+    padding: 15px;
+    width: 100%;
+    height: 150px;
+    height: 230px;
+    &:hover {
+        background: #006AA7;
+        color: white;
+        transition: 0.5s;
+    }
+}
+
+.th2_blocks {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-column: 1/4;
+    column-gap: 55px;
+    margin-top: 10px;
+}
+
+.Ukranians {
+    display: grid;
+    grid-template-columns: 50% 49%;
+    grid-template-rows: 33% 33% 33%;
+    width: 100%;
+    height: 500px;
+    column-gap: 5px;
+    row-gap: 15px;
+    padding-left: 5px;
+}
+
+.ukrainian {
+    background: white;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    padding: 25px;
+    img {
+        border-radius: 100%;
+        align-self: center;
+    }
+}
+
+.galery3 {
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    column-gap: 25px;
+    img {
+        margin: 0 auto;
+    }
+}
+
+.text_ukr {
+    align-self: center;
+}
+
+footer {
+    background: #006AA7;
+    color: white;
+    margin-top: 50px;
+}
+
+.ukraine-text {
+    display: flex;
+    margin: 0 auto;
+    width: 23%;
+}
