@@ -1,0 +1,401 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Jura', sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+h2 {
+  text-align: center;
+  padding: 25px;
+}
+
+h3 {
+  font-size: 50px;
+}
+
+h4 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+}
+
+.main-photo {
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+}
+
+ul li {
+  padding: 25px;
+  color: #006AA7;
+}
+
+ul li .nav1 {
+  text-decoration: none;
+}
+
+ul li:hover {
+  text-decoration: underline;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.zagolovok {
+  margin-top: 200px;
+  height: 300px;
+}
+
+.banner-texts {
+  padding-bottom: 15px;
+}
+
+.header-button {
+  padding: 15px;
+  text-decoration: none;
+  color: white;
+  background: #006AA7;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header-button:hover {
+  background-color: #024D79;
+}
+
+.past {
+  background: #F5F5F5;
+  padding: 25px;
+  margin-top: 25px;
+}
+
+.pass {
+  text-align: center;
+  padding: 15px;
+}
+
+.cards-past {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25% 25% 25% 25%;
+      grid-template-columns: 25% 25% 25% 25%;
+  padding: 50px;
+}
+
+.card-past {
+  width: 250px;
+  height: 220px;
+  background: white;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.card-past:hover {
+  background: #006AA7;
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.link-past {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.link-past p {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-right: 15px;
+}
+
+.cards-ukraine {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 24% 24%;
+      grid-template-columns: 50% 24% 24%;
+  -webkit-column-gap: 15px;
+          column-gap: 15px;
+  padding-bottom: 20px;
+}
+
+.card-ukraine {
+  background: lightgrey;
+  border: 1px solid black;
+  padding: 15px;
+}
+
+.card-ukraine:hover {
+  background: #006AA7;
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.kozak-block {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 75% 25%;
+      grid-template-columns: 75% 25%;
+}
+
+.to-sky {
+  background: #F9C00D;
+}
+
+.sky-info-img {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 65% 35%;
+      grid-template-columns: 65% 35%;
+  padding: 20px;
+}
+
+.sky-info {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 35% 35% 30%;
+      grid-template-rows: 35% 35% 30%;
+  font-size: 20px;
+}
+
+.sky-button {
+  border: 1px solid black;
+  background: #F9C00D;
+  border-radius: 10px;
+  padding: 15px;
+  color: black;
+  text-decoration: none;
+  width: 140px;
+  height: 25px;
+}
+
+.sky-button:hover {
+  background: #BD930A;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.blocks-today {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25% 25% 25% 24%;
+      grid-template-columns: 25% 25% 25% 24%;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+}
+
+.block-text {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  height: 150px;
+}
+
+.text_today {
+  font-size: 16px;
+}
+
+.gallery_today {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 20% 20% 20% 20%;
+      grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.gallery_today img {
+  margin: 0 auto;
+}
+
+.zelenskii {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 70% 30%;
+      grid-template-columns: 70% 30%;
+  width: 60%;
+  background: #006AA7;
+  color: white;
+  margin: 0 auto;
+  margin-top: 25px;
+  font-size: 30px;
+  padding: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.zelenskii img {
+  border-radius: 100%;
+}
+
+.blocks_dijital {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 33% 33% 33%;
+      grid-template-columns: 33% 33% 33%;
+  -ms-grid-rows: 50% 50%;
+      grid-template-rows: 50% 50%;
+  row-gap: 15px;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+}
+
+.block-dijital {
+  background: #F9C00D;
+  width: 100%;
+  height: 150px;
+  padding: 5px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% 70%;
+      grid-template-columns: 30% 70%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.future {
+  background-color: #F5F5F5;
+  width: 100%;
+}
+
+.future_Ukraine {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 31% 30% 31%;
+      grid-template-columns: 31% 30% 31%;
+  -webkit-column-gap: 45px;
+          column-gap: 45px;
+  margin: 10px;
+  font-size: 16px;
+}
+
+.block_future {
+  background: white;
+  padding: 15px;
+  width: 100%;
+  height: 150px;
+  height: 230px;
+}
+
+.block_future:hover {
+  background: #006AA7;
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.th2_blocks {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 48% 48%;
+      grid-template-columns: 48% 48%;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  -webkit-column-gap: 55px;
+          column-gap: 55px;
+  margin-top: 10px;
+}
+
+.Ukranians {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 49%;
+      grid-template-columns: 50% 49%;
+  -ms-grid-rows: 33% 33% 33%;
+      grid-template-rows: 33% 33% 33%;
+  width: 100%;
+  height: 500px;
+  -webkit-column-gap: 5px;
+          column-gap: 5px;
+  row-gap: 15px;
+  padding-left: 5px;
+}
+
+.ukrainian {
+  background: white;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 80%;
+      grid-template-columns: 20% 80%;
+  padding: 25px;
+}
+
+.ukrainian img {
+  border-radius: 100%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.galery3 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 24% 24% 24% 24%;
+      grid-template-columns: 24% 24% 24% 24%;
+  -webkit-column-gap: 25px;
+          column-gap: 25px;
+}
+
+.galery3 img {
+  margin: 0 auto;
+}
+
+.text_ukr {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+footer {
+  background: #006AA7;
+  color: white;
+  margin-top: 50px;
+}
+
+.ukraine-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  width: 23%;
+}
+/*# sourceMappingURL=style.css.map */
